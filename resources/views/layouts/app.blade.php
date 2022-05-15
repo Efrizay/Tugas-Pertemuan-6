@@ -26,6 +26,9 @@
               <li class="nav-item">
                 <a class="nav-link {{ Request::is('friends*') ? 'active' : '' }}" href="/friends">Friends</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link {{ Request::is('groups*') ? 'active' : '' }}" href="/groups">Groups</a>
+              </li>
             </ul>
           </div>
         </div>
